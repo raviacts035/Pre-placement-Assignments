@@ -1,5 +1,17 @@
 // Quetion-1:
 // nums is array
+//------------------------------------------
+var arrayPairSum= function(nums){
+    nums.sort();
+
+    let result=0;
+    numLength=nums.length;
+    for (let i=0;i<numLength;i+=2){
+        result+=nums[i];
+    }
+
+    return result
+}
 
 
 //-------------------------------------------
